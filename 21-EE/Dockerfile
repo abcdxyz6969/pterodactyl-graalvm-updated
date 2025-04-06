@@ -8,7 +8,7 @@ MAINTAINER RikoDEV, <kontakt@riko.dev>
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-# Default to UTF-8 file.encoding
+# Default to UTF-8 file.encoding.
 ENV LANG='en_US.UTF-8' LANGUAGE='en_US:en' LC_ALL='en_US.UTF-8'
 
 RUN apt-get update -y \
